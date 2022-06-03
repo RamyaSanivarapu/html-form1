@@ -1,0 +1,94 @@
+*{
+    box-sizing:border-box;
+}
+
+.bg-container{
+    background-image: linear-gradient(115deg,
+    rgba(58, 58, 158, 0.8),
+    rgba(136, 136, 206, 0.7)),
+    url("https://res.cloudinary.com/ramya44/image/upload/v1653302136/survey-form-background_evnahl.jpg");
+    background-size:cover;
+    height:250vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}    
+
+.header{
+    text-align:center;
+    padding:10px;
+    width:100%;
+}
+
+.heading{
+    color:#ffffff;
+    font-size:38px;
+    font-family:"Roboto";
+    font-weight:bold;
+}
+
+.para{
+    font-size:18px;
+    color:#ffffff;
+    font-family:"Roboto";
+}
+
+.form-container{
+    background-color: rgb(8, 43, 107);
+    background-size:cover;
+    display:flex;
+    flex-direction: column;
+    width:500px;
+    justify-content:center;
+    align-items: center;
+    padding:25px;
+    
+}
+
+.input-container{
+    display:flex;
+    flex-direction:column;
+    font-size:18px;
+    color:blanchedalmond;
+    border-radius:5px;
+    padding:5px;
+}
+
+label{
+    display:flex;
+    align-items:center;
+    font-size:1.125rem;
+    margin-bottom:0.5rem
+}
+
+.input{
+    width:450px;
+    height:24px;
+    font-size:16px;
+}
+
+.optional{
+    font-size:10px;
+    color:aqua;
+}
+.submit-button{
+    font-size:16px;
+    color:#ffffff;  
+    border:none;
+    height:30px;
+}
+
+.check-box{
+    font-size:18px;
+}
+
+.radio{
+    font-size:18px;
+}
+
+.input-text{
+    width:450px;
+    height:100px;
+}
